@@ -96,6 +96,7 @@ Visual Studio Code<br>PyCharm<br>Postman<br>Git<br>GitHub<br>
 
 📂 Project Structure
 
+<pre>
 Event_Tracker
 │
 ├── backend
@@ -150,18 +151,17 @@ Event_Tracker
 │   └── pubspec.yaml
 │
 └── README.md
+</pre>
 
 ⚙️ Installation
 
 📥 Clone the Repository
 
-git clone https://github.com/gokcekurtaran/Event_Tracker.git
-cd Event_Tracker
+git clone https://github.com/gokcekurtaran/Event_Tracker.gitcd Event_Tracker
 
 ⚙️ Backend Setup
 
-cd backend
-python -m venv venv
+cd backendpython -m venv venv
 
 Activate the virtual environment on Windows:
 
@@ -191,9 +191,7 @@ http://127.0.0.1:8000/admin/
 
 Open a new terminal:
 
-cd mobile
-flutter pub get
-flutter run
+cd mobileflutter pub getflutter run
 
 The API address is defined in:
 
@@ -217,36 +215,19 @@ Access tokens are valid for 15 minutes and refresh tokens are valid for 7 days. 
 
 🔐 Authentication
 
-POST   /api/auth/register/
-POST   /api/auth/participant/login/
-POST   /api/auth/organizer/login/
-POST   /api/auth/refresh/
-GET    /api/auth/profile/
-PATCH  /api/auth/profile/
-POST   /api/auth/logout/
+POST   /api/auth/register/POST   /api/auth/participant/login/POST   /api/auth/organizer/login/POST   /api/auth/refresh/GET    /api/auth/profile/PATCH  /api/auth/profile/POST   /api/auth/logout/
 
 📅 Events
 
-GET    /api/categories/
-GET    /api/events/
-GET    /api/events/{id}/
-POST   /api/events/
-PATCH  /api/events/{id}/
-GET    /api/events/my-events/
+GET    /api/categories/GET    /api/events/GET    /api/events/{id}/POST   /api/events/PATCH  /api/events/{id}/GET    /api/events/my-events/
 
 ❤️ Participation and Favorites
 
-POST   /api/events/{id}/join/
-POST   /api/events/{id}/leave/
-POST   /api/events/{id}/favorite/
-DELETE /api/events/{id}/favorite/
-GET    /api/me/attendances/
-GET    /api/me/favorites/
+POST   /api/events/{id}/join/POST   /api/events/{id}/leave/POST   /api/events/{id}/favorite/DELETE /api/events/{id}/favorite/GET    /api/me/attendances/GET    /api/me/favorites/
 
 🧑‍💼 Organizer
 
-GET    /api/organizer/events/{id}/participants/
-GET    /api/organizer/events/{id}/report/
+GET    /api/organizer/events/{id}/participants/GET    /api/organizer/events/{id}/report/
 
 📱 Screenshots
 
@@ -254,7 +235,6 @@ GET    /api/organizer/events/{id}/report/
 <img width="856" height="1600" alt="WhatsApp Image 2026-07-27 at 15 52 08 (2)" src="https://github.com/user-attachments/assets/a5c80179-9c60-4ba4-bae4-81c199366c18" />
 <img width="814" height="1600" alt="WhatsApp Image 2026-07-27 at 15 52 08 (1)" src="https://github.com/user-attachments/assets/63ff3ad9-3a94-4cf0-bf2a-208e12428538" />
 <img width="852" height="1600" alt="WhatsApp Image 2026-07-27 at 15 52 08" src="https://github.com/user-attachments/assets/85173be5-3be8-4c92-ad52-686b9659d9c7" />
-
 
 📈 Future Improvements
 
@@ -269,3 +249,5 @@ Developing RESTful APIs with Django REST Framework<br>Integrating a Flutter appl
 👩‍💻 Developer
 
 Developed by Gökçe Kurtaran as part of an internship project.
+
+
