@@ -27,26 +27,26 @@ class ApiConstants {
   static const String myFavorites = '/api/me/favorites/';
 
   static String eventDetail(int eventId) {
-    return '/events/$eventId/';
+    return '/api/events/$eventId/';
   }
 
   static String joinEvent(int eventId) {
-    return '/events/$eventId/join/';
+    return '/api/events/$eventId/join/';
   }
 
   static String leaveEvent(int eventId) {
-    return '/events/$eventId/leave/';
+    return '/api/events/$eventId/leave/';
   }
 
   static String favoriteEvent(int eventId) {
-    return '/events/$eventId/favorite/';
+    return '/api/events/$eventId/favorite/';
   }
 
   static String organizerParticipants(int eventId) {
-    return '/organizer/events/$eventId/participants/';
+    return '/api/organizer/events/$eventId/participants/';
   }
 
   static String organizerReport(int eventId) {
-    return '/organizer/events/$eventId/report/';
+    return '/api/organizer/events/$eventId/report/';
   }
 }
