@@ -250,13 +250,11 @@ GET    /api/organizer/events/{id}/report/
 
 📱 Screenshots
 
-Add the following screenshots to an assets/screenshots folder:
+<img width="878" height="1600" alt="WhatsApp Image 2026-07-27 at 15 52 08 (3)" src="https://github.com/user-attachments/assets/79deeb12-8166-4e1c-b778-67842560c719" />
+<img width="856" height="1600" alt="WhatsApp Image 2026-07-27 at 15 52 08 (2)" src="https://github.com/user-attachments/assets/a5c80179-9c60-4ba4-bae4-81c199366c18" />
+<img width="814" height="1600" alt="WhatsApp Image 2026-07-27 at 15 52 08 (1)" src="https://github.com/user-attachments/assets/63ff3ad9-3a94-4cf0-bf2a-208e12428538" />
+<img width="852" height="1600" alt="WhatsApp Image 2026-07-27 at 15 52 08" src="https://github.com/user-attachments/assets/85173be5-3be8-4c92-ad52-686b9659d9c7" />
 
-Participant home or event list — participant-home.png<br>Event detail screen — event-detail.png<br>Organizer home or event management screen — organizer-home.png<br>
-
-![Participant Home](assets/screenshots/participant-home.png)
-![Event Detail](assets/screenshots/event-detail.png)
-![Organizer Home](assets/screenshots/organizer-home.png)
 
 📈 Future Improvements
 
